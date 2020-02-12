@@ -1,9 +1,27 @@
+ html, body  {
+    margin: 0;
+    padding: 0;
+    min-height: 100%;
+    width: 100%;
+}
+
 body {
-	margin: 0;
-	font-family: Roboto, -apple-system, BlinkMacSystemFont, Segoe UI, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  font-family: 'Nunito', sans-serif;
 	font-size: 14px;
 	line-height: 1.5;
 	color: #333;
+ 
+  --first-color: #e4f2f0;
+  --second-color: #99d8d0;
+  --third-color: #70416d;
+  --fourth-color: #170a19;
+
+}
+
+#sapper {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -34,3 +52,4 @@ code {
 		font-size: 16px;
 	}
 }
+
